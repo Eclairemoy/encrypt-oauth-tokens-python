@@ -16,13 +16,12 @@ Open [http://localhost:5000](http://localhost:5000) with your browser to see the
 
 The Github OAuth callback function can be edited in `app.py`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+After you have created your Github OAuth app, go to `https://github.com/login/oauth/authorize?scope=user:email&client_id=` + `YOUR_GITHUB_CLIENT_ID` in your browser to initiate the Authorization flow.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Learn More
 
+To learn more about Evervault check out:
 
-## Deploy on Vercel
+- [Evervault Python SDK](https://docs.evervault.com/sdks/reactjs)
+- [Evervault Outbound Relay](https://docs.evervault.com/sdks/nodejs)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
