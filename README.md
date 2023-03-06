@@ -12,7 +12,7 @@ Create a virtual environment and install the required packages.
 
 `pip3 install -r requirements.txt`
 
-Open [http://localhost:3000](http://localhost:5000) with your browser to see the result.
+Open [http://localhost:5000](http://localhost:5000) with your browser to see the result.
 
 The Github OAuth callback function can be edited in `app.py`.
 
