@@ -12,7 +12,9 @@ Create a virtual environment and install the required packages.
 
 `pip3 install -r requirements.txt`
 
-Open [http://localhost:5000](http://localhost:5000) with your browser to see the result.
+Run flask to start the server.
+
+`flask run`
 
 The Github OAuth callback function can be edited in `app.py`.
 
